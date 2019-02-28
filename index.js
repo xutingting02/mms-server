@@ -15,7 +15,7 @@ import serve from 'koa-static'
 import jwt from 'koa-jwt'
 
 import mongoose from 'mongoose'
-mongoose.connect('mongodb://127.0.0.1:27017/mms')
+mongoose.connect('mongodb://127.0.0.1:27017/mms', {useNewUrlParser: true})
 
 const app = new Koa()
 const router = Router()
