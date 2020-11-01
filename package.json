@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prd": "sequelize-automate -c bin/sequelize-automate.config.json && pm2 start bin/swan-monitor"
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,10 @@
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "moment": "^2.22.2",
-    "mongoose": "^5.3.12"
+    "mongoose": "^5.3.12",
+    "mysql": "^2.16.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3",
+    "sequelize-automate": "^1.2.0"
   }
 }

@@ -1,0 +1,25 @@
+{
+    "dbOptions": {
+        "database": "mms",
+        "username": "xutingting02",
+        "password": "Xu2ting00@",
+        "dialect": "mysql",
+        "host": "rm-bp10qrkjxryh353vcso.mysql.rds.aliyuncs.com",
+        "port": 3306,
+        "logging": true,
+        "define": {
+            "underscored": false,
+            "freezeTableName": false,
+            "charset": "utf8mb4",
+            "timezone": "+00:00",
+            "dialectOptions": {
+                "collate": "utf8_general_ci"
+            },
+            "timestamps": false
+        }
+    },
+    "options": {
+        "type": "js",
+        "dir": "schema"
+    }
+}
